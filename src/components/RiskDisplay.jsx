@@ -59,7 +59,8 @@ const RiskDisplay = () => {
                                    <CardContent>
                                         <p className="font-bold text-red-500">Risk: {data.risk}</p>
 
-                                        {/* Bar Chart for Risk Percentage by Level */}
+                                        <div className='grid grid-cols-2 gap-4'>
+                                             {/* Bar Chart for Risk Percentage by Level */}
                                         <div className="mt-6">
                                              <h3 className="text-lg font-semibold text-center mb-3">Risk Percentage by Level</h3>
                                              <ResponsiveContainer width="100%" height={400}>
@@ -103,6 +104,9 @@ const RiskDisplay = () => {
                                                   </PieChart>
                                              </ResponsiveContainer>
                                         </div>
+                                        </div>
+
+                                        
                                    </CardContent>
                                    <CardFooter></CardFooter>
                               </Card>
