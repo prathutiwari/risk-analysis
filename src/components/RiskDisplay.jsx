@@ -57,7 +57,7 @@ const RiskDisplay = () => {
                                         <CardDescription>Overall Risk Score: {data.risk_score}</CardDescription>
                                    </CardHeader>
                                    <CardContent>
-                                        <p className="font-bold text-red-500">Risk: {data.risk}</p>
+                                        <p className="font-bold text-red-500">Risk: {data.risk} </p>
 
                                         <div className='grid grid-cols-2 gap-4'>
                                              {/* Bar Chart for Risk Percentage by Level */}
